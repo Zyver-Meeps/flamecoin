@@ -144,7 +144,7 @@ public:
 
         checkpointData = {
             {
-                {  1500, uint256S("0x79f3b52eb3fc5361bc61327541199d9671b9e0f1748feb396f4e317465b5c5e0")},
+                {  1500, uint256S("79f3b52eb3fc5361bc61327541199d9671b9e0f1748feb396f4e317465b5c5e0")},
             }
         };
 
@@ -213,9 +213,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.flamecointools.com");
-        vSeeds.emplace_back("seed-b.flamecoin.loshan.co.uk");
-        vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
+        // vSeeds.emplace_back("testnet-seed.flamecointools.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
@@ -234,7 +232,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {2056, uint256S("17748a31ba97afdc9a4f86837a39d287e3e7c7290a08a1d816c5969c78a83289")},
+                {   0, uint256S("8a55b44b1ec2b0e9467331fdabec0f552ebe2fad3f9b65ae3e79a05ad5b5bcd2")},
             }
         };
 
