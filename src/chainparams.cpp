@@ -238,9 +238,9 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block a0afbded94d4be233e191525dc2d467af5c7eab3143c852c3cd549831022aad6 (height 343833)
-            1516406749,
-            794057,
-            0.01
+            1486949366,
+            0,
+            0.00
         };
 
     }
